@@ -1,0 +1,6 @@
+Risk numberDescriptioEvaluation LikelihooImpact LeveResponsibilitResponse                Control Measures
+          1Time limitRunning outHigh     High       Developers   Make sure to keep workinMake use of the kanban board, k
+          2Password lUser accideLow      High       User         System manager, resets cMake sure to protect passwords
+          3Broken macMachine goeLow      High       Developers   Pull files from VCS on aMake frequent small commits so
+          4Broken codErrors in tHigh     High       Developers   Revert to most recent stMake sure to get above 80% test
+          5Hand injurDeveloper sVery low Very High  Developers   Obtain speech to text apAvoid excess straining of hands
