@@ -48,6 +48,22 @@ public class Order {
 		this.items = items;
 	}
 
+	
+	public Order(long customer_id, double orderCost) {
+		super();
+		this.customer_id = customer_id;
+		this.orderCost = orderCost;
+	}
+	
+	
+
+	public Order(long order_id, long customer_id, double orderCost) {
+		super();
+		this.order_id = order_id;
+		this.customer_id = customer_id;
+		this.orderCost = orderCost;
+	}
+
 	@Override
 	public String toString() {
 		return "Order [order_id=" + order_id + ", customer_id=" + customer_id + ", items=" + items + ", orderCost="

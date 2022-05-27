@@ -46,7 +46,9 @@ public class OrderController implements CrudController<Order> {
 		Long order_id = utils.getLong();
 		LOGGER.info("Please enter the id of the customer");
 		Long customer_id = utils.getLong();
-		Order order = orderDAO.update(new Order(order_id, customer_id));
+		LOGGER.info("Enter order cost");
+		double orderCost = utils.getDouble();
+		Order order = orderDAO.update(new Order(order_id, customer_id, orderCost));
 
 		LOGGER.info("Order Updated");
 		return order;
