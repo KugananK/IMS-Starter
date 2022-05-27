@@ -24,8 +24,7 @@ public class OrderDAOTest {
 
 	@Test
 	public void testCreate() {
-		final Order created = new Order(1L, 1L, itemList<item> filmList, 39.99D);
-//		This is definitely wrong, I think I need to create an arrayList
+		final Order created = new Order(1L, 1L);
 		assertEquals(created, DAO.create(created));
 	}
 	@Test
@@ -37,13 +36,13 @@ public class OrderDAOTest {
 
 	@Test
 	public void testReadLatest() {
-		assertEquals(new Order(1L, 1L, /*arrayList of items*/, 10D), DAO.readLatest());
+		assertEquals(new Order(1L, 1L), DAO.readLatest());
 	}
 
 	@Test
 	public void testRead() {
 		final long ID = 1L;
-		assertEquals(new Order(1L, 1L, /*arrayList of items*/, 10D), DAO.read(ID));
+		assertEquals(new Order(1L, 1L), DAO.read(ID));
 	}
 
 	@Test

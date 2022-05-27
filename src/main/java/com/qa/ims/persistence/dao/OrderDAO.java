@@ -39,7 +39,6 @@ public class OrderDAO implements Dao<Order> {
 		try (Connection connection = DBUtils.getInstance().getConnection();
 				PreparedStatement statement = connection
 						.prepareStatement("SELECT * FROM joining WHERE order_id = " + order_id);) {
-			statement.setLong(1, order_id);
 			try (ResultSet resultSet = statement.executeQuery();) {
 				List<Long> itemIds = new ArrayList<>();
 				while (resultSet.next()) {
