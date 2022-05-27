@@ -6,9 +6,13 @@ The project is a inventory management system, it is built to allow you to contro
 ## Getting Started
 
 Clone down the repository through your gitbash command line, using the command "git clone $https://github.com/KugananK/IMS-Starter.git" 
+
 This will allow you to create a local repository of the code.
+
 Using this you can launch it in eclipse or any other JRE.
+
 Change the database location to your own, signing in to your own with your own username and password found in src/main/resources/db.properties
+
 Then run using the runner class in order to utilise the IMS
 
 ### Prerequisites
@@ -16,7 +20,9 @@ Then run using the runner class in order to utilise the IMS
 Software needed
 ```
 Git bash - I use git bash for windows x64, to install it, https://qa-community.co.uk/~/_/learning/git/git--git-bash follow the instruction here to download your own
+
 JRE - I use eclipse IDE, to install it, https://qa-community.co.uk/~/_/learning/java-beginner/java--hello-world-example follow instructions here
+
 SQL - I use mySQL, to install it, https://qa-community.co.uk/~/_/learning/databases-introduction/databases--installation follow instructions here
 ```
 
@@ -80,6 +86,7 @@ We use [SemVer](http://semver.org/) for versioning.
 ## Authors
 
 * **Chris Perrins** - *Initial work* - [christophperrins](https://github.com/christophperrins)
+* 
 * **Kajan Kugananthajothy** - *Author* - [kuganank](https://github.com/kuganank)
 ## License
 
