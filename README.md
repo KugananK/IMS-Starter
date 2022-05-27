@@ -1,4 +1,4 @@
-Coverage: 71.6%
+Coverage: 73.9%
 # IMS-Starter
 
 The project is a inventory management system, it is built to allow you to control and store data on customers, orders and items. 
